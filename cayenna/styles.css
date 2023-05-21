@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  margin: 0;
+  font-family: "Calibri", "Arial narrow", sans-serif;
+  background-color: #000040;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Allerta Stencil", Impact, "Arial Black";
+  padding: 24px;
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px; /* Similar to margin, but only to child elements of gallery */
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.calendar .img {
+  width: 50%;
+}
+
+.calendar .img img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover; /* Crop Images */
+}
+
+.calendar .table {
+  width: 50%;
+  border-collapse: collapse;
+}
